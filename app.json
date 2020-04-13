@@ -1,9 +1,7 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/index/index",
-    "pages/test/test",
-    "pages/logs/logs"
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,7 +17,7 @@
     "list":[
       {
         "pagePath": "pages/home/home",
-        "text": "专注",
+        "text": "统计数据",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-active.png"
       },
