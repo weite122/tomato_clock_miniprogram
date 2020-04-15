@@ -1,39 +1,40 @@
 {
-  "pages": [
+  "pages":[
+    "pages/me/me",
     "pages/home/home",
+    "pages/tomato/tomato",
     "pages/test/test"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "番茄闹钟",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black"
   },
-  "tabBar":{
+  "tabBar": {
     "color": "#515151",
     "selectedColor": "#F6705A",
-    "backgroundColor": "#FFF",
+    "backgroundColor": "#fff",
     "borderStyle": "black",
-    "list":[
+    "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "统计数据",
+        "text": "专注",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-active.png"
       },
       {
         "pagePath": "pages/home/home",
-        "text": "专注",
+        "text": "数据统计",
         "iconPath": "images/total.png",
         "selectedIconPath": "images/total-active.png"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/me/me",
         "text": "我的",
         "iconPath": "images/me.png",
         "selectedIconPath": "images/me-active.png"
       }
     ]
-  },
-  "sitemapLocation": "sitemap.json"
+  }
 }
