@@ -1,5 +1,6 @@
-Page({
-  
+const http = require('../../lib/http.js').http;
+
+Page({ 
   data: {
     account: "",
     possword: "",
@@ -16,5 +17,8 @@ Page({
   },
   goToBinding(){
     this.setData({ isBinding: true })
+  },
+  onShow: function (options) {
+
   }
 })
